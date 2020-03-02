@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: flex-start;
 }
+
 .container section.filters button {
     font-size: 18px;
     background-color: #ff5a5f;
@@ -19,26 +20,31 @@
     margin-right: 30px;
     margin-left: auto;
 }
+
 .container section.filters button:hover {
     opacity: 0.9;
 }
+
 .container section.filters div.locations {
     height: 100%;
     width: 25%;
     border-right: 1px solid #837070;
     padding-left: 50px;
 }
+
 .container section.filters div.amenities {
     height: 100%;
-	width: 25%;
-	padding-left: 50px;
+    width: 25%;
+    padding-left: 50px;
 }
+
 .container section.filters div h3 {
     font-weight: 600;
     color: black;
     margin: 12px 10px 0px 10px;
     padding: 0px;
 }
+
 .container section.filters div h4 {
     font-weight: 400;
     font-size: 14px;

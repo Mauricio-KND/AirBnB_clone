@@ -9,6 +9,7 @@
     flex-direction: row;
     justify-content: flex-end;
 }
+
 .container section.filters button {
     font-size: 18px;
     background-color: #ff5a5f;
@@ -19,6 +20,7 @@
     border-radius: 4px;
     margin-right: 30px;
 }
+
 .container section.filters button:hover {
     opacity: 0.9;
 }

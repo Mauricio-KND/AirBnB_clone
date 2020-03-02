@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: flex-start;
 }
+
 .container section.filters button {
     font-size: 18px;
     background-color: #ff5a5f;
@@ -19,26 +20,31 @@
     margin-right: 30px;
     margin-left: auto;
 }
+
 .container section.filters button:hover {
     opacity: 0.9;
 }
+
 .container section.filters div.locations {
     height: 100%;
     width: 25%;
     border-right: 1px solid #837070;
     padding-left: 50px;
 }
+
 .container section.filters div.amenities {
     height: 100%;
-	width: 25%;
-	padding-left: 50px;
+    width: 25%;
+    padding-left: 50px;
 }
+
 .container section.filters div h3 {
     font-weight: 600;
     color: black;
     margin: 12px 10px 0px 10px;
     padding: 0px;
 }
+
 .container section.filters div h4 {
     font-weight: 400;
     font-size: 14px;
@@ -46,22 +52,32 @@
     margin: 6px 10px;
     padding: 0px;
 }
+
+.container section.filters div.locations:hover .popover {
+    display: list-item;
+}
+
 .container section.filters div.amenities:hover .popover {
-	display: list-item;
+    display: list-item;
 }
+
 .container section.filters .popover {
-	display: none;
-	list-style-type: none;
-	background-color: #FAFAFA;
-	border: 1px solid #DDDDDD;
-	border-radius: 4px;
-	padding: 30px 40px 40px 30px;
-	margin: 15px -1px 0 -1px;
+    display: none;
+    list-style-type: none;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 30px 40px 40px 30px;
+    color: black;
+    margin-top: 17px;
+    margin-left: -50px;
 }
+
 .container section.filters .popover ul {
-	list-style-type: none;
-	padding-left: 20px;
+    list-style-type: none;
+    padding-left: 20px;
 }
+
 .container section.filters .popover li {
-	margin: 5px 0 5px 0;
+    margin: 5px 0 5px 0;
 }

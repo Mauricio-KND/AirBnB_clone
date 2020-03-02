@@ -3,12 +3,14 @@ body {
     padding: 0;
     color: #484848;
     font-size: 14px;
-    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 p {
     text-align: center;
     line-height: 30px;
 }
+
 .container {
     max-width: 1000px;
     margin: 30px auto;
