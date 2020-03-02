@@ -73,6 +73,6 @@
     background-image: url("../images/icon_bath.png");
 }
 
-.user, .description {
+.container section.places div.user, .container section.places div.description {
     text-align: left;
 }
